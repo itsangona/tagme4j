@@ -3,7 +3,7 @@
  * <p>
  * Distributed under the MIT License.
  */
-package it.enricocandino.tagme4j;
+package it.zwl.tagme4j;
 
 public class TagMeException extends Exception {
 

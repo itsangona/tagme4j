@@ -3,7 +3,7 @@
  * <p>
  * Distributed under the MIT License.
  */
-package it.enricocandino.tagme4j.model;
+package it.zwl.tagme4j.model;
 
 public class Mention {
 

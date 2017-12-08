@@ -3,10 +3,10 @@
  * <p>
  * Distributed under the MIT License.
  */
-package it.enricocandino.tagme4j.request;
+package it.zwl.tagme4j.request;
 
-import it.enricocandino.tagme4j.TagMeClient;
-import it.enricocandino.tagme4j.response.SpotResponse;
+import it.zwl.tagme4j.TagMeClient;
+import it.zwl.tagme4j.response.SpotResponse;
 import okhttp3.FormBody;
 import okhttp3.Request;
 import okhttp3.RequestBody;

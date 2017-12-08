@@ -3,12 +3,12 @@
  * <p>
  * Distributed under the MIT License.
  */
-package it.enricocandino.tagme4j.request;
+package it.zwl.tagme4j.request;
 
 import com.google.gson.Gson;
-import it.enricocandino.tagme4j.TagMeClient;
-import it.enricocandino.tagme4j.TagMeException;
-import it.enricocandino.tagme4j.response.TagMeResponse;
+import it.zwl.tagme4j.TagMeClient;
+import it.zwl.tagme4j.TagMeException;
+import it.zwl.tagme4j.response.TagMeResponse;
 import okhttp3.*;
 
 public abstract class TagMeRequest<T extends TagMeResponse> {

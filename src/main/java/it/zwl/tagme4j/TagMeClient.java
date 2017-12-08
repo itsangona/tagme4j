@@ -3,15 +3,15 @@
  * <p>
  * Distributed under the MIT License.
  */
-package it.enricocandino.tagme4j;
+package it.zwl.tagme4j;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import it.enricocandino.tagme4j.json.RelatednessDeserializer;
-import it.enricocandino.tagme4j.model.Relatedness;
-import it.enricocandino.tagme4j.request.RelRequest;
-import it.enricocandino.tagme4j.request.SpotRequest;
-import it.enricocandino.tagme4j.request.TagRequest;
+import it.zwl.tagme4j.json.RelatednessDeserializer;
+import it.zwl.tagme4j.model.Relatedness;
+import it.zwl.tagme4j.request.RelRequest;
+import it.zwl.tagme4j.request.SpotRequest;
+import it.zwl.tagme4j.request.TagRequest;
 import okhttp3.*;
 
 public class TagMeClient {
